@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
@@ -6,9 +5,11 @@ using System.Linq;
 public class ObjectPooler : MonoBehaviour
 {
     //Use this script for instantiating objects through the pool design pattern
-    [SerializeField] GameObject objectToSpawn;
+    [SerializeField] GameObject[] objectsToSpawn;
+
     [SerializeField] int poolSize;
     private Queue<GameObject> pool;
+    private int currentObjectToCreate;
 
     protected virtual void Start()
     {
@@ -23,7 +24,8 @@ public class ObjectPooler : MonoBehaviour
 
     void CreateObject()
     {
-        GameObject obj = Instantiate(objectToSpawn, transform.position, Quaternion.identity, transform); //obj, pos, rot, parent
+        GameObject obj = Instantiate(NextObjectToCreate(), transform.position, Quaternion.identity, transform); //obj, pos, rot, parent
+        currentObjectToCreate++;
         obj.SetActive(false);
         pool.Enqueue(obj);
     }
@@ -36,6 +38,15 @@ public class ObjectPooler : MonoBehaviour
         }
     }
 
+    //Cycle through objects to spawn on pool Creation
+    GameObject NextObjectToCreate()
+    {
+        if(currentObjectToCreate >= objectsToSpawn.Length)
+        {
+            currentObjectToCreate = 0;
+        }
+        return objectsToSpawn[currentObjectToCreate];
+    }
     public GameObject SpawnFromPool(Vector3 position)
     {
         GameObject spawnedObject = pool.Dequeue();
@@ -50,6 +61,8 @@ public class ObjectPooler : MonoBehaviour
 
         return spawnedObject;
     }
+
+
 
     void EnqueueInactive()
     {
