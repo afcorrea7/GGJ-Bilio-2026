@@ -12375,8 +12375,9 @@ GameObject:
   - component: {fileID: 976558258}
   - component: {fileID: 976558257}
   - component: {fileID: 976558261}
-  - component: {fileID: 976558259}
   - component: {fileID: 976558260}
+  - component: {fileID: 976558262}
+  - component: {fileID: 976558259}
   m_Layer: 3
   m_Name: Contestant Grandma
   m_TagString: Untagged
@@ -12507,7 +12508,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25247ef713aa2de4c86a915667b4f9aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStateManager
-  enemyStunnedState: {fileID: 0}
+  enemyStunnedState: {fileID: 976558260}
+--- !u!114 &976558262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976558255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3c44b255f4ff24382ccfec68463fdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1011174186
 GameObject:
   m_ObjectHideFlags: 0

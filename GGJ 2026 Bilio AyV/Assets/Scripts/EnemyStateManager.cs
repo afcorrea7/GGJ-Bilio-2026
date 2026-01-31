@@ -4,15 +4,16 @@ using UnityEngine;
 public class EnemyStateManager : BaseStateManager, IStun
 {
     public EnemyStunnedState enemyStunnedState;
+    public EnemyChaseState enemyChaseState;
     private IState currentState;
     void Start()
     {
-        //currentState = chasingState;
+        currentState = enemyChaseState;
     }
 
     void Update()
     {
-        
+        currentState.UpdateState();
     }
 
     public override void SwitchState(IState newState)
