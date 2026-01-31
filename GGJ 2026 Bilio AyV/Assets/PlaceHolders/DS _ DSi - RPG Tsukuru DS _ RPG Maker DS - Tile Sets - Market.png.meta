@@ -1,0 +1,1186 @@
+fileFormatVersion: 2
+guid: 66275891ebc0ba94680b8651e1ff7fe5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941b7ab75e0457840b434675a4263df8
+      internalID: -285732886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 126
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8325e28137ae0ee4e98eaf42f8343ef5
+      internalID: 1810594546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 126
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4edf6158f3c5d644897d9bd800bf1b0
+      internalID: 1516407320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 126
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85123d6185745b94c9110a6870cfa625
+      internalID: -1695792373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 126
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3ed9ff965e1d348af2f3603563d39e
+      internalID: 2011979710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 126
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f1fd7f291709749b378e09e9f1a722
+      internalID: 1022029044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 126
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fd6f7d77a9fb84e9454d156600a926
+      internalID: -805428900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 126
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728a3a463c582ab468e0dbf669078565
+      internalID: 853908688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 126
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480817e6fad4667429e3b0b144dc6049
+      internalID: -1140485587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 126
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2066617543cd3474db2bec1f0a56a55c
+      internalID: -1299250225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea71e33a2ca21c847ae1d4a90a56d789
+      internalID: 1384792679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_11
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 101
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e41bc6c481e5a4c92b317c7caa5ee3
+      internalID: 117202972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 101
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc23f8d1df6c0e4ab541ea3dfef028b
+      internalID: -54127082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 101
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 12.5, y: 12.5}
+        - {x: -12.5, y: 12.5}
+        - {x: -12.5, y: -12.5}
+        - {x: 12.5, y: -12.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4e0ff8ba63a8b4a9be176f43337dd6
+      internalID: -460928094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 101
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2775d91897177459806c76ff2ae637
+      internalID: 1391478292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_15
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 101
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb6adeb2ab7ad945b45c67bc5955133
+      internalID: -1294417551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 101
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e88163dfcd5f664da6ed27100ad5eea
+      internalID: -808172278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_17
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 101
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1777469174210646831753932821e20
+      internalID: -1929781906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 101
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a69b5b4df3cc44a843efd7bb938944
+      internalID: 899359170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_19
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 101
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388c9fd92a296e247aa258454ff3b43a
+      internalID: 1174928986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d766156df3d1546a4585e9e68b66e1
+      internalID: 988583394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_21
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 76
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e7089556c20fe4cbd37ded4655c14e
+      internalID: -1348064400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 76
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db507935997f3e4991ffa81bfa29c0a
+      internalID: 1223808131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_23
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 76
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbf188596bb6c74280e989e60ccfed4
+      internalID: -1227642687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 76
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f77311108aca0f4daab7896aacda172
+      internalID: 812131813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_25
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 76
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1091375825c14994ea453899be9f9f2b
+      internalID: -152531662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 76
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a42db57c4c21ac4ba35e663192ac0d3
+      internalID: -281592116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_27
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 76
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf59554f3c303454597a7b982d9d3c61
+      internalID: -1287811572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_28
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 76
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382fcd3caa412f84d97b5eee254733fe
+      internalID: 1756402934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_29
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 76
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af7927e852a63f4a86211ab1267622d
+      internalID: -151821822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e564ebc747668041b92f9ed82276574
+      internalID: 1012938722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_31
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 51
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61110be06082744cb5c8c3ff2e06000
+      internalID: 142302256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_32
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 51
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e9863f661598843b0935ccd5f32334
+      internalID: 1725989235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_33
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 51
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763bdb9ddb525084d811a925507ebcc9
+      internalID: -838275998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_34
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 51
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432bb28ae1452c54dafee2c5e5bc31bf
+      internalID: 823227789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7052f1b025b3a7f4db4a4349987c543f
+      internalID: -1788890719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_41
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 26
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5eb10b2ece293b459b8a1047a398980
+      internalID: -1592496805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_42
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 26
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd49435fb3d81745b29325c1d245548
+      internalID: -1082352247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_43
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 26
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0c9dde905e2034ebf84cc135383f5c
+      internalID: 2028761056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_44
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 26
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88761a2d87e0684e9e01b532ed6bc65
+      internalID: 243857925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faec12e9130feed4aa2f3dc3e81a30ef
+      internalID: -2025504498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_51
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96338de54e507b4488c735c048d68346
+      internalID: -483292683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_52
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d6883d0215b9547a0e7bdcbd2bdf5b
+      internalID: 587427056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_53
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7569dcf6da84d418d6f5d9cafac538
+      internalID: 962632198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_54
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30014f9700114c14aa4a2ae412e71ca6
+      internalID: -1970960708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6a95fcedbb0cd8847981eb1ce81f51a8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":6.0},"gridSpriteSize":{"x":25.0,"y":25.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_0: -285732886
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_1: 1810594546
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_10: 1384792679
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_11: 117202972
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_12: -54127082
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_13: -460928094
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_14: 1391478292
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_15: -1294417551
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_16: -808172278
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_17: -1929781906
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_18: 899359170
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_19: 1174928986
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_2: 1516407320
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_20: 988583394
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_21: -1348064400
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_22: 1223808131
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_23: -1227642687
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_24: 812131813
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_25: -152531662
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_26: -281592116
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_27: -1287811572
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_28: 1756402934
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_29: -151821822
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_3: -1695792373
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_30: 1012938722
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_31: 142302256
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_32: 1725989235
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_33: -838275998
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_34: 823227789
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_35: 802283957
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_36: 1532727786
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_37: -1761494196
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_38: -26207581
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_39: -1638055164
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_4: 2011979710
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_40: -1788890719
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_41: -1592496805
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_42: -1082352247
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_43: 2028761056
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_44: 243857925
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_45: -916779169
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_46: -1910044448
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_47: -1544580001
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_48: 1993647898
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_49: 451980070
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_5: 1022029044
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_50: -2025504498
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_51: -483292683
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_52: 587427056
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_53: 962632198
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_54: -1970960708
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_55: -559383681
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_56: 1033898719
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_57: 1688128096
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_58: -961698681
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_59: 1881927721
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_6: -805428900
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_7: 853908688
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_8: -1140485587
+      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_9: -1299250225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
