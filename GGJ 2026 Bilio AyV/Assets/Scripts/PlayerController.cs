@@ -19,7 +19,6 @@ public class PlayerController : MonoBehaviour
     //Actions as variables so we don't have to type their name ["x"] every time
     private InputAction moveAction;
     private InputAction aimAction;
-    private InputAction attackAction;
 
     void Awake()
     {
@@ -49,22 +48,35 @@ public class PlayerController : MonoBehaviour
         aimAction.performed += OnAim;
     }
 
+    void OnDisable()
+    {
+        UnsubscribeFromActionEvents();
+    }
+
+    void UnsubscribeFromActionEvents()
+    {
+        moveAction.performed -= OnMove;
+        moveAction.canceled -= OnMove;
+
+        aimAction.performed -= OnAim;
+    }
+
     void FixedUpdate()
     {
-        Movement();
-        Aiming();
+        if (canMove)
+        {
+            Movement();
+            Aiming();
+        }
     }
 
     void Movement()
     {
-        if (canMove)
-        {
-            Vector2 move = new Vector2(moveInput.x, moveInput.y).normalized;
-            Vector3 targetVelocity = move * moveSpeed;
-            rb.linearVelocity = new Vector2(targetVelocity.x, targetVelocity.y);
-            // Update Animator with movement magnitude
-            animator?.SetFloat("Movement", move.magnitude);
-        }
+        Vector2 move = new Vector2(moveInput.x, moveInput.y).normalized;
+        Vector3 targetVelocity = move * moveSpeed;
+        rb.linearVelocity = new Vector2(targetVelocity.x, targetVelocity.y);
+        // Update Animator with movement magnitude
+        animator?.SetFloat("Movement", move.magnitude);
     }
 
     void Aiming()
@@ -88,8 +100,10 @@ public class PlayerController : MonoBehaviour
 
     public void OnAttack(InputAction.CallbackContext _)
     {
-        Debug.Log("ATTAAAAAAAACK");
-        thisThrowableHolder.UseThrowable();
+        if (canMove)
+        {
+            thisThrowableHolder.UseThrowable();
+        }
     }
 
 

@@ -9,5 +9,5 @@ public abstract class Throwable : MonoBehaviour
     {
         throwableOwner.ObtainPointsFromThrowable(pointAmount);
     }
-    public abstract void DestroyItself(); //Don't forget to return the accumulated points to the throwable Holder
+    public abstract void DestroyItself(); //Nothing good lasts
 }

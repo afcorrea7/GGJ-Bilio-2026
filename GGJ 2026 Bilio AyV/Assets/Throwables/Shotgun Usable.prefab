@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1999781775417342605}
   - component: {fileID: 3371484824002194933}
   - component: {fileID: 3858191250828847838}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shotgun Usable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5483078115191302348}
   - component: {fileID: 2000775073559649157}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3766779572240697774}
   - component: {fileID: 8389247826267451158}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collision
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -19,11 +19,13 @@ public class ShotgunThrowable : Throwable
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.layer == LayerMask.GetMask("Contestant"))
+        if(collision.gameObject.layer == 3) //3 is the contestant layer
         {
-            //collision.HurtContestant //Take off mask
+            collision.gameObject.GetComponentInChildren<MaskHolder>().LoseMask();
+            collision.gameObject.GetComponentInChildren<IStun>().Stun();
             GivePoints();
         }
+        
         DestroyItself();
     }
 

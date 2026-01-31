@@ -4,6 +4,7 @@ using UnityEngine;
 public class ThrowableHolder : MonoBehaviour
 {
     public GameObject currentThrowableObject;
+    public MaskHolder thisMaskHolder;
 
     public void ObtainThrowable(GameObject newThrowable)
     {
@@ -25,11 +26,11 @@ public class ThrowableHolder : MonoBehaviour
         }
     }
 
-    public void ObtainPointsFromThrowable(float points)
+    public void ObtainPointsFromThrowable(int points)
     {
-        // if (gotMask)
-        // {
-            
-        // }
+        if (thisMaskHolder.hasMask)
+        {
+            thisMaskHolder.UpdatePoints(points);
+        }
     }
 }
