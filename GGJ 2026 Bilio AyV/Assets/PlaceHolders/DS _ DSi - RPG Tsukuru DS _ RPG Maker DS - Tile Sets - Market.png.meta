@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -396,7 +396,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_13
+      name: Box
       rect:
         serializedVersion: 2
         x: 75
@@ -409,8 +409,8 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape:
-      - - {x: 12.5, y: 1.5}
-        - {x: -12.5, y: 1.5}
+      - - {x: 12.5, y: 12.5}
+        - {x: -12.5, y: 12.5}
         - {x: -12.5, y: -12.5}
         - {x: 12.5, y: -12.5}
       tessellationDetail: 0
@@ -1119,12 +1119,12 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":6.0},"gridSpriteSize":{"x":25.0,"y":25.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
+      Box: -460928094
       DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_0: -285732886
       DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_1: 1810594546
       DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_10: 1384792679
       DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_11: 117202972
       DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_12: -54127082
-      DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_13: -460928094
       DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_14: 1391478292
       DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_15: -1294417551
       DS _ DSi - RPG Tsukuru DS _ RPG Maker DS - Tile Sets - Market_16: -808172278

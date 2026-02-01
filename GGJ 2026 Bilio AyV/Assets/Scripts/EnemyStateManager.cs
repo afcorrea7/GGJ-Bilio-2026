@@ -19,9 +19,8 @@ public class EnemyStateManager : BaseStateManager, IStun
     public override void SwitchState(IState newState)
     {
         if(currentState == newState) return;
-        
         currentState = newState;
-        newState.EnterState(this);
+        currentState.EnterState(this);
     }
 
     public void Stun()

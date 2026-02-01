@@ -2,15 +2,21 @@ using UnityEngine;
 
 public class ObjectSpawner : MonoBehaviour
 {
+    [SerializeField] int inmediateObjectAmount; //Objects that will be available inmediately upon game start
     [SerializeField] float spawnRate;
     [SerializeField] Transform[] spawnPositions;
     [SerializeField] ObjectPooler objectPool;
+    [SerializeField] GameEvent newObjectSpawnedSender; //Contestants MUST KNOW!!!11
 
     float currentSpawnTimer;
 
     void Start()
     {
         currentSpawnTimer = 0;
+        for(int i = 0; i < inmediateObjectAmount; i++)
+        {
+            TrySpawnObject();
+        }
     }
 
     void Update()
@@ -29,6 +35,7 @@ public class ObjectSpawner : MonoBehaviour
         if(!Physics2D.OverlapCircle(spawnPosition, 2f, ~0))
         {
             objectPool.SpawnFromPool(spawnPosition);
+            newObjectSpawnedSender.TriggerEvent();
         }
     }
 

@@ -12,12 +12,12 @@ public class CountdownTimer : MonoBehaviour
 
     void OnEnable()
     {
-        //RoundManager.OnRoundStart += StartTimer;
+        GameManager.OnMatchStart += StartTimer;
     }
 
     void OnDisable()
     {
-        //RoundManager.OnRoundStart -= StartTimer;
+        GameManager.OnMatchStart -= StartTimer;
     }
 
     void Start()
@@ -68,5 +68,6 @@ public class CountdownTimer : MonoBehaviour
     private void TimerEnd()
     {
         Debug.Log("it's over mah dude");
+        GameManager.GMInstance.TriggerOnMatchEnd();
     }
 }

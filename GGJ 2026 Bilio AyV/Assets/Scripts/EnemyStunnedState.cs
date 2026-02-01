@@ -15,18 +15,19 @@ public class EnemyStunnedState : MonoBehaviour, IState
         {
             stateManager = incomingStateManager as EnemyStateManager;
         }
-
-
+        StartCoroutine(StunTime());
     }
 
     IEnumerator StunTime()
     {
+        gameObject.layer = LayerMask.NameToLayer("StunnedContestant"); //Will not collide with mask
         yield return new WaitForSeconds(stunnedTime);
+        gameObject.layer = LayerMask.NameToLayer("Contestant"); //Will not collide with mask
         ExitState();
     }
 
     public void ExitState()
     {
-        //stateManager.SwitchState();
+        stateManager.SwitchState(stateManager.enemyChaseState);
     }
 }

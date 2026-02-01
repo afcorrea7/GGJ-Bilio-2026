@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 525a646b5dd4cb24c966445eb6baea1d
+guid: 0e53486ddd01c0342be043433ef805fb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mascara-Sheet_0
+      name: Empleado-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,42 +125,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56d157d8fe36db64ca43e2de1c6b0f12
-      internalID: 671077203
+      spriteID: d3ab8363c13729248aa196aad11c2643
+      internalID: 1929375048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mascara-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc9cd0b6527b38c44b2b9cbb0395d12f
-      internalID: -1864403976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mascara-Sheet_2
+      name: Empleado-Sheet_1
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,42 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbf128331bd47034d92c13200901f7a6
-      internalID: -283247871
+      spriteID: 18f18db00019b0640a523f9f80cd7b97
+      internalID: -427001987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mascara-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e23831d9a5a8cfa4ea02c1af956ebc03
-      internalID: 962919891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mascara-Sheet_4
+      name: Empleado-Sheet_2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,42 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56a7e92be64820b44a5ec2e6ca394f32
-      internalID: -1105583273
+      spriteID: 85c515c61f263de46ac03947f5849cd9
+      internalID: -569760408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mascara-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7965d1040bfb8514b93573d12f36ed6d
-      internalID: -2077174778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mascara-Sheet_6
+      name: Empleado-Sheet_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b02f388eb6cb5d4eb2a9e66a46e761c
-      internalID: 1879758306
+      spriteID: fa40b37e280a3ec4b954fb522c7deb22
+      internalID: 350909244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mascara-Sheet_7
+      name: Empleado-Sheet_4
       rect:
         serializedVersion: 2
-        x: 224
+        x: 256
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,8 +213,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fec5fe001151d0b4ab4607be030b9d6d
-      internalID: 1909365696
+      spriteID: 07e75651bf8c65f458923fce42951cfd
+      internalID: 1456632422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empleado-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a918ffd25e3daa2419f5ff875667ddbe
+      internalID: 776280695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empleado-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a11d3e94e9b84d409749a61570691b7
+      internalID: 1598227849
       vertices: []
       indices: 
       edges: []
@@ -289,7 +267,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d7275d9cbf9ebef41b23bdb39519b166
+    spriteID: 2c4ff6f7d6373d443abd326d7b2eaeb5
     internalID: 0
     vertices: []
     indices: 
@@ -299,16 +277,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Mascara-Sheet_0: 671077203
-      Mascara-Sheet_1: -1864403976
-      Mascara-Sheet_2: -283247871
-      Mascara-Sheet_3: 962919891
-      Mascara-Sheet_4: -1105583273
-      Mascara-Sheet_5: -2077174778
-      Mascara-Sheet_6: 1879758306
-      Mascara-Sheet_7: 1909365696
+      Empleado-Sheet_0: 1929375048
+      Empleado-Sheet_1: -427001987
+      Empleado-Sheet_2: -569760408
+      Empleado-Sheet_3: 350909244
+      Empleado-Sheet_4: 1456632422
+      Empleado-Sheet_5: 776280695
+      Empleado-Sheet_6: 1598227849
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

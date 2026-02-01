@@ -11,7 +11,7 @@ public class ObjectPooler : MonoBehaviour
     private Queue<GameObject> pool;
     private int currentObjectToCreate;
 
-    protected virtual void Start()
+    protected virtual void Awake()
     {
         pool = new Queue<GameObject>();
         FillPool();

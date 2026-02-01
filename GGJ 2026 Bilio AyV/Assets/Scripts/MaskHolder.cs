@@ -9,6 +9,10 @@ public class MaskHolder : MonoBehaviour
     public GameObject maskOnContestantObject;
     public GameObject maskPickUpObject; //make it reappear on drop;
 
+    [Header("Event Triggereres")]
+    public GameEvent MaskNewOwner;
+    public GameEvent MaskDropped;
+
     private SpriteRenderer maskOnContestantSprite;
 
 
@@ -22,13 +26,19 @@ public class MaskHolder : MonoBehaviour
     {
         hasMask = true;
         maskOnContestantObject.SetActive(true);
+        MaskNewOwner.TriggerEvent();
     }
 
     public void LoseMask()
     {
-        hasMask = false;
-        maskOnContestantObject.SetActive(false);
-        DropMask();
+        if (hasMask)
+        {
+            hasMask = false;
+            maskOnContestantObject.SetActive(false);
+            DropMask();
+            MaskDropped.TriggerEvent();
+        }
+
     }
 
     void DropMask()

@@ -79,6 +79,7 @@ GameObject:
   - component: {fileID: 4170213991345152255}
   - component: {fileID: 6115791650771115621}
   - component: {fileID: 5009663434436353038}
+  - component: {fileID: 8991208350065317798}
   m_Layer: 7
   m_Name: Shotgun Pickup
   m_TagString: Untagged
@@ -97,7 +98,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.7048135, y: -2.487658, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3914941921297070023}
   - {fileID: 2422589199658364490}
@@ -144,6 +145,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &8991208350065317798
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4826233085109384400}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 66cb69ba262a4cd4a8da2636f5d97fde, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4963361337339619353
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,7 +176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3914941921297070023}
-  - component: {fileID: 2930288792889120461}
+  - component: {fileID: 1730184357175595695}
   m_Layer: 7
   m_Name: Sprite
   m_TagString: Untagged
@@ -171,12 +194,12 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 4170213991345152255}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2930288792889120461
+--- !u!212 &1730184357175595695
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
@@ -230,7 +253,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.28, y: 1.28}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

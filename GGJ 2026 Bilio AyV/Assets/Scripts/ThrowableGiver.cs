@@ -9,7 +9,7 @@ public class ThrowableGiver : MonoBehaviour
         if(collision.gameObject.layer == 3) //Layer 3 is contestant
         {
             ThrowableHolder collisionThrowableHolder = collision.gameObject.GetComponentInChildren<ThrowableHolder>();
-            if(collisionThrowableHolder != null)
+            if(collisionThrowableHolder != null && collisionThrowableHolder.currentThrowableObject == null)
             {
                 collisionThrowableHolder.ObtainThrowable(throwablePrefab);
                 //Instantiate(pickUpParticles, transform.position, Quaternion.identity);

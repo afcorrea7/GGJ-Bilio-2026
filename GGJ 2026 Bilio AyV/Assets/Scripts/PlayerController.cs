@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 aimPosicion;
     private Rigidbody2D rb;
     private Animator animator;
+    private AudioSource thisAS;
     private PointerRotator pointer;
     private ThrowableHolder thisThrowableHolder;
     private PlayerInput playerInput;
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponentInChildren<Rigidbody2D>();
         animator = GetComponentInChildren<Animator>();
         pointer = GetComponentInChildren<PointerRotator>();
+        thisAS = GetComponentInChildren<AudioSource>();
         thisThrowableHolder = GetComponentInChildren<ThrowableHolder>();
     }
 
@@ -76,7 +78,7 @@ public class PlayerController : MonoBehaviour
         Vector3 targetVelocity = move * moveSpeed;
         rb.linearVelocity = new Vector2(targetVelocity.x, targetVelocity.y);
         // Update Animator with movement magnitude
-        animator?.SetFloat("Movement", move.magnitude);
+        animator?.SetFloat("Movement", move.x); //either left or right
     }
 
     void Aiming()
