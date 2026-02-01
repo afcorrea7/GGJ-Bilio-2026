@@ -6,7 +6,6 @@ public class GameManager : MonoBehaviour
 {
     //Manage events that can happen WHILE playing a level
     public static GameManager GMInstance;
-    
     //On pause whenever the match is not currently on play, like the starting countdown
     public static event Action OnMatchStart;
     public static event Action OnPause;
@@ -26,9 +25,9 @@ public class GameManager : MonoBehaviour
     
     
     void Start(){ //Uncomment if match will start on very first frame
+        Time.timeScale = 0;   
         //Debug.Log("Executing Start on Game Manager");
         //TriggerOnMatchStart();
-        Time.timeScale = 0;   
     }
 
     public void TriggerOnMatchStart(){

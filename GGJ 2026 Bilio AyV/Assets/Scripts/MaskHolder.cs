@@ -26,6 +26,7 @@ public class MaskHolder : MonoBehaviour
     {
         hasMask = true;
         maskOnContestantObject.SetActive(true);
+        
         MaskNewOwner.TriggerEvent();
     }
 

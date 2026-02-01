@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
         Vector3 targetVelocity = move * moveSpeed;
         rb.linearVelocity = new Vector2(targetVelocity.x, targetVelocity.y);
         // Update Animator with movement magnitude
-        animator?.SetFloat("Movement", move.x); //either left or right
+        animator.SetFloat("Movement", move.x);
     }
 
     void Aiming()

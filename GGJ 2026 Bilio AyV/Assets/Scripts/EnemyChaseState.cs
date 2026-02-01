@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Tilemaps;
 
 public class EnemyChaseState : MonoBehaviour, IState
 {
@@ -13,6 +14,7 @@ public class EnemyChaseState : MonoBehaviour, IState
     public GameEvent NewThrowableAppeared;
 
     private NavMeshAgent navAgent;
+    private Animator thisAnim;
     private MaskHolder thisMaskHolder;
     private EnemyStateManager stateManager;
     private PointerRotator pointerRotator;
@@ -26,6 +28,7 @@ public class EnemyChaseState : MonoBehaviour, IState
         thisMaskHolder = GetComponent<MaskHolder>();
         thisThrowableHolder = GetComponentInChildren<ThrowableHolder>();
         pointerRotator = GetComponentInChildren<PointerRotator>();
+        thisAnim = GetComponent<Animator>();
         navAgent.updateRotation = false;
         navAgent.updateUpAxis = false;
         SetInitialTarget();
@@ -69,6 +72,8 @@ public class EnemyChaseState : MonoBehaviour, IState
         navAgent.SetDestination(currentTarget.position);
         pointerRotator.pointerposition = currentTarget.position;
 
+        MoveAnimate();
+
         tryAttackTimer += Time.deltaTime;
         if (tryAttackTimer >= tryAttackCooldown)
         {
@@ -76,6 +81,16 @@ public class EnemyChaseState : MonoBehaviour, IState
             tryAttackTimer = 0;
         }
 
+    }
+
+    void MoveAnimate()
+    {
+        if(currentTarget == null)
+        {
+            thisAnim.SetFloat("movemement", 0);
+        }
+            
+        thisAnim.SetFloat("movement", pointerRotator.pointerposition.x);
     }
 
     void TryToAttack()
