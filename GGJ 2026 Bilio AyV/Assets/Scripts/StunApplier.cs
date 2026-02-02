@@ -25,11 +25,11 @@ public class StunApplier : MonoBehaviour, IStun
     IEnumerator StunTime()
     {
         playerController.canMove = false;
-        anim.SetBool("stunned", false);
+        anim.SetBool("stunned", true);
         gameObject.layer = LayerMask.NameToLayer("StunnedContestant"); //Will not collide with mask
         yield return new WaitForSeconds(stunnedTime);
         playerController.canMove = true;
-        anim.SetBool("stunned", true);
+        anim.SetBool("stunned", false);
         gameObject.layer = LayerMask.NameToLayer("Contestant");
     }
     

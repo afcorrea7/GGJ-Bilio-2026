@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class ThrowableHolder : MonoBehaviour
 {
+    public PointerRotator contestantPointer;
     public GameObject currentThrowableObject;
     public MaskHolder thisMaskHolder;
 
@@ -11,6 +12,7 @@ public class ThrowableHolder : MonoBehaviour
         if(currentThrowableObject == null)
         {
             currentThrowableObject = newThrowable;
+            ChangePointerSprite(currentThrowableObject.GetComponentInChildren<SpriteRenderer>().sprite);
         }
     }
 
@@ -22,8 +24,14 @@ public class ThrowableHolder : MonoBehaviour
             //Remember to unattach parent in Throwable logic if necessary.
             GameObject usedThrowable = Instantiate(currentThrowableObject, transform.position, quaternion.identity, transform);
             usedThrowable.GetComponent<Throwable>().throwableOwner = this;
+            contestantPointer.ResetPointerSprite();
             currentThrowableObject = null;
         }
+    }
+
+    void ChangePointerSprite(Sprite newSprite)
+    {
+        contestantPointer.ChangePointerSprite(newSprite);
     }
 
     public void ObtainPointsFromThrowable(int points)

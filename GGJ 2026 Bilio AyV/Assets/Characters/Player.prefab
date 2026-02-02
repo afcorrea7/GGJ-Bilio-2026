@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d3b01f9f6f338448509ba5647f9e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ThrowableHolder
+  contestantPointer: {fileID: 2815619205998408943}
   currentThrowableObject: {fileID: 0}
   thisMaskHolder: {fileID: 3604956212374062904}
 --- !u!1 &2099099145941003222
@@ -59,7 +60,7 @@ GameObject:
   m_Layer: 3
   m_Name: Pointer Parent
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -381,7 +382,7 @@ Animator:
   m_GameObject: {fileID: 5116112564345791123}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e9886fcac71a7a14aaa8c582629fb838, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

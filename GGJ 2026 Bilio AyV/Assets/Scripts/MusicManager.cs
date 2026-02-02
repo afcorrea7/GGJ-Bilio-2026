@@ -3,9 +3,11 @@ using UnityEngine.Audio;
 
 public class MusicManager : MonoBehaviour
 {
-    public static MusicManager Instance;
-
+    public static MusicManager Instance;    
     public AudioMixer mixer;
+
+    [SerializeField] AudioClip endMusic;
+    private AudioSource musicSource;
 
     private void Awake()
     {
@@ -13,6 +15,24 @@ public class MusicManager : MonoBehaviour
             Instance = this;
         else
             Destroy(gameObject);
+        
+        musicSource = GetComponent<AudioSource>();
+    }
+
+    void OnEnable()
+    {
+        GameManager.onMatchEnd += SwitchToEndMusic;
+    }
+
+    void OnDisable()
+    {
+        GameManager.onMatchEnd -= SwitchToEndMusic;
+    }
+
+    void SwitchToEndMusic()
+    {
+        musicSource.clip = endMusic;
+        musicSource.Play();
     }
 
     public void SetVolumenGeneral(float valor)

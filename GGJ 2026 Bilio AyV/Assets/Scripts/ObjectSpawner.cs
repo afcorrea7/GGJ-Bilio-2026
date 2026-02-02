@@ -32,7 +32,9 @@ public class ObjectSpawner : MonoBehaviour
     void TrySpawnObject()
     {
         Vector2 spawnPosition = RandomPosition();
-        if(!Physics2D.OverlapCircle(spawnPosition, 2f, ~0))
+        int collectable = LayerMask.NameToLayer("Collectable");
+        int layerMask = 1 << collectable;
+        if(!Physics2D.OverlapCircle(spawnPosition, 2f, layerMask))
         {
             objectPool.SpawnFromPool(spawnPosition);
             newObjectSpawnedSender.TriggerEvent();

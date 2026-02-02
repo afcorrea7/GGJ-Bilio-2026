@@ -14072,13 +14072,13 @@ Transform:
   - {fileID: 478038267}
   - {fileID: 276345531}
   - {fileID: 2048974032}
-  - {fileID: 182877453}
-  - {fileID: 1839929816}
-  - {fileID: 1408439427}
-  - {fileID: 913063054}
-  - {fileID: 747872849}
   - {fileID: 1193768584}
   - {fileID: 1989659432}
+  - {fileID: 1408439427}
+  - {fileID: 182877453}
+  - {fileID: 913063054}
+  - {fileID: 1839929816}
+  - {fileID: 747872849}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &676532142
@@ -15390,15 +15390,11 @@ MonoBehaviour:
   spawnRate: 2
   spawnPositions:
   - {fileID: 478038267}
-  - {fileID: 276345531}
+  - {fileID: 0}
   - {fileID: 2048974032}
   - {fileID: 182877453}
   - {fileID: 1839929816}
-  - {fileID: 1408439427}
-  - {fileID: 913063054}
-  - {fileID: 747872849}
-  - {fileID: 1193768584}
-  - {fileID: 1989659432}
+  - {fileID: 0}
   objectPool: {fileID: 1319963473}
   newObjectSpawnedSender: {fileID: 11400000, guid: 6c86cf0de00667f429313d3d39ef8ed9, type: 2}
 --- !u!1 &1399452682
@@ -16330,7 +16326,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1874069377}
   - component: {fileID: 1874069376}
-  - component: {fileID: 1874069378}
   m_Layer: 0
   m_Name: Music Manager
   m_TagString: Untagged
@@ -16450,20 +16445,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1874069378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874069375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a01a419845cc924bbd60fabf821a111, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MusicManager
-  mixer: {fileID: 0}
-  endMusic: {fileID: 8300000, guid: b6e0b21fbd4d28a4c8282faf45d50a24, type: 3}
 --- !u!1 &1874837352
 GameObject:
   m_ObjectHideFlags: 0
@@ -16940,6 +16921,26 @@ PrefabInstance:
       propertyPath: m_UIInputModule
       value: 
       objectReference: {fileID: 2070357866}
+    - target: {fileID: 808447099389611003, guid: c2453841dec2ba14898042c1f75ed233, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e9886fcac71a7a14aaa8c582629fb838, type: 2}
+    - target: {fileID: 2880336590252274193, guid: c2453841dec2ba14898042c1f75ed233, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2067708800, guid: d9acf80374fdf51428b0c154749cd56a, type: 3}
+    - target: {fileID: 2880336590252274193, guid: c2453841dec2ba14898042c1f75ed233, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880336590252274193, guid: c2453841dec2ba14898042c1f75ed233, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880336590252274193, guid: c2453841dec2ba14898042c1f75ed233, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3604956212374062904, guid: c2453841dec2ba14898042c1f75ed233, type: 3}
       propertyPath: pointsText
       value: 
