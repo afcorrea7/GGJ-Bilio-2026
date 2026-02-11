@@ -118,6 +118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ThrowableGiver
   throwablePrefab: {fileID: 431074588666848572, guid: a78a0168ccbc7754aae107282275a9aa, type: 3}
   pickUpParticles: {fileID: 0}
+  soundOnPickUp: {fileID: 8300000, guid: 604bf6f3d934c34498569ebe8dd869e1, type: 3}
 --- !u!50 &5009663434436353038
 Rigidbody2D:
   serializedVersion: 5

@@ -7,12 +7,25 @@ public class ThrowableHolder : MonoBehaviour
     public GameObject currentThrowableObject;
     public MaskHolder thisMaskHolder;
 
+    [Header("Audio")]
+    public AudioSource contestantAudioSource; //The audio source of this character
+    public AudioClip onPickUpSound;
+
     public void ObtainThrowable(GameObject newThrowable)
     {
         if(currentThrowableObject == null)
         {
             currentThrowableObject = newThrowable;
             ChangePointerSprite(currentThrowableObject.GetComponentInChildren<SpriteRenderer>().sprite);
+            TryPlaySound();
+        }
+    }
+
+    void TryPlaySound()
+    {
+        if(contestantAudioSource && onPickUpSound)
+        {
+            contestantAudioSource.PlayOneShot(onPickUpSound);
         }
     }
 

@@ -13,12 +13,8 @@ public class MaskHolder : MonoBehaviour
     public GameEvent MaskNewOwner;
     public GameEvent MaskDropped;
 
-    private SpriteRenderer maskOnContestantSprite;
-
-
     void Start()
     {
-        maskOnContestantSprite = GetComponentInChildren<SpriteRenderer>();
         pointsText.text = "0";
     }
 

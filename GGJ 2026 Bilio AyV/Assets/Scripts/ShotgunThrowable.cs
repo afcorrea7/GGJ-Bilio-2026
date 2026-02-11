@@ -3,7 +3,9 @@ using UnityEngine;
 public class ShotgunThrowable : Throwable
 {
     public float thrownPower;
+    public AudioClip throwSound;
     private Rigidbody2D rb;
+    
 
     void Start()
     {
@@ -14,6 +16,7 @@ public class ShotgunThrowable : Throwable
     public override void Attack() //This shotgun is YEETED
     {
         rb.AddForce(throwableOwner.transform.up*thrownPower, ForceMode2D.Impulse);
+        throwableOwner.contestantAudioSource?.PlayOneShot(throwSound);
         transform.parent = null;
     }
 

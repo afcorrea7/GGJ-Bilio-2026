@@ -225,7 +225,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10.2
+  orthographic size: 10.384615
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -593,6 +593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicManager
   mixer: {fileID: 0}
+  endMusic: {fileID: 0}
 --- !u!4 &950247023
 Transform:
   m_ObjectHideFlags: 0

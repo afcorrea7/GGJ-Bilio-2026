@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &975089460169646410
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1730184357175595695, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1024663096, guid: fd2e8a01a95b4774db22b48c524a968f, type: 3}
+    - target: {fileID: 4170213991345152255, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170213991345152255, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170213991345152255, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170213991345152255, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170213991345152255, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170213991345152255, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170213991345152255, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170213991345152255, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170213991345152255, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170213991345152255, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826233085109384400, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: m_Name
+      value: Dorito Pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 6115791650771115621, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: soundOnPickUp
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6115791650771115621, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: throwablePrefab
+      value: 
+      objectReference: {fileID: 2125382049959235481, guid: 1936a948118d91d4b9c41e7d8b252956, type: 3}
+    - target: {fileID: 8991208350065317798, guid: 65c008ffdb104db4598da6d758460370, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: e48fdaeeda0679a468a566549e4ae8d2, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65c008ffdb104db4598da6d758460370, type: 3}

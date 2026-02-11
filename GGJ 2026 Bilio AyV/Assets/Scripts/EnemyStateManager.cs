@@ -6,6 +6,7 @@ public class EnemyStateManager : BaseStateManager, IStun
     public EnemyStunnedState enemyStunnedState;
     public EnemyChaseState enemyChaseState;
     private IState currentState;
+
     void Start()
     {
         currentState = enemyChaseState;

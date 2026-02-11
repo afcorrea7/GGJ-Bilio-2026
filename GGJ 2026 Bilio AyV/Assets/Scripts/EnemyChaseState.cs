@@ -22,7 +22,7 @@ public class EnemyChaseState : MonoBehaviour, IState
     private Transform currentTarget;
     private float tryAttackTimer;
 
-    void Start()
+    void Awake()
     {
         navAgent = GetComponent<NavMeshAgent>();
         thisMaskHolder = GetComponent<MaskHolder>();
@@ -43,9 +43,9 @@ public class EnemyChaseState : MonoBehaviour, IState
 
     void OnDisable()
     {
-        MaskNewOwner.OnGameEvent += ChangeTarget;
-        MaskDropped.OnGameEvent +=  SetTargetToMaskPickUp;
-        NewThrowableAppeared.OnGameEvent += ChangeTarget;
+        MaskNewOwner.OnGameEvent -= ChangeTarget;
+        MaskDropped.OnGameEvent -=  SetTargetToMaskPickUp;
+        NewThrowableAppeared.OnGameEvent -= ChangeTarget;
     }
 
     public void EnterState(BaseStateManager incomingStateManager)
@@ -98,12 +98,12 @@ public class EnemyChaseState : MonoBehaviour, IState
         float distanceToAttack = 3f;
         if(thisThrowableHolder.currentThrowableObject != null)
         {
-            ///if(thisThrowableHolder.currentThrowableObject.GetComponent<Throwable>() is ShotgunThrowable)
+            if(thisThrowableHolder.currentThrowableObject.GetComponent<Throwable>() is SwordThrowable)
+                distanceToAttack = distanceToAttack*0.5f; //contestant will get closer if they carry a sword
+                
             RaycastHit2D hit = Physics2D.Raycast(transform.position, currentTarget.position, distanceToAttack);
             if (hit.collider.gameObject.layer == 3)
-            {
                 thisThrowableHolder.UseThrowable();
-            }
         }
     }
 
@@ -142,7 +142,7 @@ public class EnemyChaseState : MonoBehaviour, IState
         {
             if (thisMaskHolder.hasMask)
             {
-                if(randomChance <= 3)
+                if(randomChance <= 2)
                 {
                     SetTargetToPlayer();
                     return;
@@ -153,7 +153,7 @@ public class EnemyChaseState : MonoBehaviour, IState
             }
             else
             {
-                if(randomChance <= 4)
+                if(randomChance <= 3)
                 {
                     SetTargetToNearestOpponent();
                     return;
@@ -197,6 +197,10 @@ public class EnemyChaseState : MonoBehaviour, IState
         {
             Debug.Log("Nearest Opponent: "+ nearestOpponent[1].transform.name);
             currentTarget = nearestOpponent[1].transform;
+        }
+        else
+        {
+            ChangeTarget();
         }
     }
 

@@ -320,6 +320,8 @@ MonoBehaviour:
   contestantPointer: {fileID: 4408421807956333388}
   currentThrowableObject: {fileID: 0}
   thisMaskHolder: {fileID: 3361409246093530625}
+  contestantAudioSource: {fileID: 6404474260745677991}
+  onPickUpSound: {fileID: 8300000, guid: 3c5cbafeac0223f40838fd323be2322d, type: 3}
 --- !u!1 &7059541271240800687
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,6 +387,7 @@ GameObject:
   - component: {fileID: 2900978236931942369}
   - component: {fileID: 6404474260745677991}
   - component: {fileID: 2255036853154004458}
+  - component: {fileID: 508090811420099230}
   m_Layer: 3
   m_Name: Contestant Grandma
   m_TagString: Contestant
@@ -499,7 +502,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789dd9c7bb3e6b343a5e71374c51b697, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  stunnedTime: 2
+  stunnedTime: 1.5
+  stunnedSound: {fileID: 8300000, guid: f98d406319a55444d8a794752e3e7ed4, type: 3}
 --- !u!114 &5528119337057980025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,7 +518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   playerTarget: {fileID: 0}
   maskOnFloorTarget: {fileID: 0}
-  tryAttackCooldown: 2
+  tryAttackCooldown: 1.5
   MaskNewOwner: {fileID: 11400000, guid: 42e9d047c58028b4c852badae644cded, type: 2}
   MaskDropped: {fileID: 11400000, guid: ee7969de75a7e194c8a6f53a28f9c280, type: 2}
   NewThrowableAppeared: {fileID: 11400000, guid: 6c86cf0de00667f429313d3d39ef8ed9, type: 2}
@@ -547,8 +551,8 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4
-  m_Acceleration: 6
+  m_Speed: 5.5
+  m_Acceleration: 7
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 1
@@ -572,7 +576,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -678,3 +682,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &508090811420099230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7788258868587769246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad22c44d5bad8304aa7fca931d9bf06e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SoundsInAnimationEvent

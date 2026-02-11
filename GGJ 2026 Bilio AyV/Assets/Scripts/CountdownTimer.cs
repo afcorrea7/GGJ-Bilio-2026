@@ -63,6 +63,16 @@ public class CountdownTimer : MonoBehaviour
     {
         TimeSpan t = TimeSpan.FromSeconds(time);
         timerText.text = string.Format("{0}:{1:D2}", t.Minutes, t.Seconds);
+        
+        if(time < startTimeInSeconds * 0.1f) //less than 10% of initial time remaining?
+        {
+            HitRedTimerThreshold();
+        }
+    }
+
+    void HitRedTimerThreshold() //Timer should start appearing red
+    {
+        timerText.color = Color.red;
     }
 
     private void TimerEnd()

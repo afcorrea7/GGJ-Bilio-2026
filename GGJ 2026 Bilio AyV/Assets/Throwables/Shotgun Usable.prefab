@@ -50,6 +50,7 @@ MonoBehaviour:
   throwableOwner: {fileID: 0}
   pointAmount: 1
   thrownPower: 15
+  throwSound: {fileID: 8300000, guid: d50b7c0c49cd1944e96fd78f9052649c, type: 3}
 --- !u!50 &3858191250828847838
 Rigidbody2D:
   serializedVersion: 5

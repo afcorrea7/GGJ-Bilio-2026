@@ -12,7 +12,11 @@ public class SoundsInAnimationEvent : MonoBehaviour
 
     void Start()
     {
-        thisAudioSource = GetComponent<AudioSource>();
+        thisAudioSource = GetComponentInChildren<AudioSource>();
+        if(thisAudioSource == null)
+        {
+            thisAudioSource = GetComponentInParent<AudioSource>();
+        }
     }
 
     public void PlaySound(AudioClip soundClip)
